@@ -13,7 +13,7 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:5173",
   "https://e-commerce-frontend-three-psi.vercel.app",
-  "https://f3dc-18-118-2-28.ngrok-free.app",
+  
 ];
 
 app.use((req, res, next) => {
